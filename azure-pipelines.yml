@@ -65,4 +65,4 @@ stages:
               azureSubscription: 'todo-application-service-connection'
               appType: webAppLinux
               appName: $(webAppName)
-              package: '$(Pipeline.Workspace)/drop/**/target/*.?(war|jar)'
+              package: '$(Pipeline.Workspace)/target/todo-web-application-h2.war'
