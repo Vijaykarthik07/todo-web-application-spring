@@ -85,9 +85,10 @@
       <plugin> 
         <groupId>org.springframework.boot</groupId>  
         <artifactId>spring-boot-maven-plugin</artifactId> 
-      </plugin>  
+      </plugin> 
+       <!-- 
       <plugin> 
-      <!--   <groupId>com.microsoft.azure</groupId>  
+        <groupId>com.microsoft.azure</groupId>  
         <artifactId>azure-webapp-maven-plugin</artifactId>  
         <version>1.7.0</version> 
         <configuration>
@@ -112,8 +113,8 @@
             </resources>
           </deployment>
         </configuration>
-         --> 
-      </plugin> 
+       
+      </plugin>   --> 
     </plugins> 
   </build>  
   <repositories> 
